@@ -1,0 +1,161 @@
+* {
+   font-family: Roboto, sans-serif; 
+    border: 1px solid;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* height: min-content */
+}
+
+.header, .footer{
+    color: #f9faf8;
+    background: #1f2937;
+
+    padding: 16px;
+
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-evenly;
+    gap: 256px;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-links {
+    font-size: 18px;
+}
+
+.footer {
+    justify-content: center;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+}
+
+.hero {
+    background-color: #1f2937;
+
+    display: flex;
+    
+
+    /* flex: 1; */
+    /* border: solid red; */
+}
+
+.hero
+.hero-text {
+    color: #f9faf8;
+
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero
+.hero-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.info-section {
+    margin-top: 32px;
+    align-self: center;
+}
+
+.info-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.info-list {
+    padding: 32px 0px;
+}
+
+.info-list
+li {
+    width: 200px;
+}
+
+.quote-section {
+    background: #e5e7eb;
+
+    margin-top: 32px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    width: 820px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+ 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action-section {
+    color: #e5e7eb;
+    background: #3882f6;
+
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 32px 0px;
+    margin: 64px auto;
+    width: 950px;
+
+    display: flex;
+    flex-shrink: 0;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+.action-section
+.primary {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+button {
+    color: #e5e7eb;
+    background: #3882f6;
+    
+    padding: 0 16px;
+
+    border-color: #e5e7eb;
+    border-radius: 15%;
+    border-width: 2px;
+    flex-shrink: 0;
+}
