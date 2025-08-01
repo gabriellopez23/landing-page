@@ -9,7 +9,7 @@
     font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 ul {
@@ -74,14 +74,15 @@ button {
 }
 
 .hero-image {
-    flex: 1 1 40vw;
-    max-width: 42vw;
+    flex: 1 1 600px;
+    max-width: 50%;
     height: auto;
 }
 
 .container {
     border: solid green;
-    width: 80%;
+    width: 70%;
+    max-width: 1920px;
     padding: 32px;
     margin: 0 auto;
 
@@ -130,4 +131,26 @@ img {
     border-radius: 10px;
     width: 240px;
     height: auto;
+}
+
+.quote-section {
+    background: var(--light-grey);
+}
+
+.quote {
+    color: var(--dark-blue);   
+    margin: 0 auto;
+    width: 60%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    color: var(--dark-blue);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;;
 }
